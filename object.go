@@ -4,6 +4,7 @@ type Object struct {
 	OriginalX float64
 	OriginalY float64
 	Mass      float64
+	Charge    float64
 	Forces    []*Force
 
 	Width  float64
